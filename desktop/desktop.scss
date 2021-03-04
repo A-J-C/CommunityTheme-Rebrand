@@ -3,35 +3,6 @@
  ********************/
  
 #main-outlet {
-    margin: 0; 
     padding-left: 0;
     padding-right: 0;
-}
-
-.communityImg {
-    border-radius: 360px;
-    height: 100px;
-    overflow: hidden;
-    position: absolute;
-    width: 100px;
-
-    #comImgLeft {
-        height: 140%;
-    }
-
-    #comImgRight {
-        float: right;
-        height: 130%;
-        margin-top: -30px;
-    }
-}
-
-#imgDivLeft {
-    left: 100px;
-    top: 25px;
-}
-
-#imgDivRight {
-    bottom: 25px;
-    right: 100px;
 }

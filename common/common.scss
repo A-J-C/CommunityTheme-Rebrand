@@ -1,3 +1,7 @@
+/********************
+ *      REBRAND     *
+ ********************/
+
 body {
     font-family: Apercu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Cantarell, Fira Sans, Droid Sans,
         Helvetica Neue, sans-serif;
@@ -43,4 +47,87 @@ body {
 
 .topic-status-info {
     border: none;
+}
+
+/********************
+ *      BANNER      *
+ ********************/
+
+#main-outlet div.container:first-of-type {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+}
+
+#banner {
+    background: repeating-linear-gradient(
+135deg
+, #F2FBFF 40%, #d9f3ff 60%), repeating-linear-gradient(
+45deg
+, #F2FBFF 42%, #d9f3ff 60%);
+    background-size: 12px 18px;
+    background-position: 0 0;
+    width: initial;
+    max-width: none;
+    font-weight: 400;
+    font-size: 22px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 0;
+    margin-top: -20px !important;
+    height: auto;
+}
+
+#banner a {
+    font-weight: bold;
+}
+
+#banner #welcome-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#banner #welcome-text {
+    padding: 2rem;
+    flex: 1 1;
+    float: none;
+    width: auto;
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+#welcome-message {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100% !important;
+    float: none !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#welcome-message a:link, #welcome-message a:hover, #welcome-message a:visited, #welcome-message a:active,
+.arrow-svg {
+    color: #3069f0;
+}
+
+.arrow-svg {
+    height: 0.75em;
+    width: 0.75em;
+}
+
+.banner-links {
+    display: inline-flex;
+}
+
+.banner-link-container {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.banner-link-container a {
+    padding-right: 5px;
 }

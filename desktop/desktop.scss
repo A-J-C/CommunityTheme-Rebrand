@@ -1,0 +1,37 @@
+/********************
+ *      BANNER      *
+ ********************/
+ 
+#main-outlet {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0; 
+}
+
+.communityImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 360px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.communityImg #comImgLeft {
+    height: 140%;
+}
+
+#imgDivLeft {
+    top: 25px;
+    left: 100px;
+}
+
+#imgDivRight {
+    bottom: 25px;
+    right: 100px;
+}
+
+.communityImg #comImgRight {
+    height: 130%;
+    float: right;
+    margin-top: -30px;
+}

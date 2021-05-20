@@ -15,9 +15,9 @@ body {
 }
 
 .category-box {
+    transition: transform 200ms ease-in;
     &:hover {
         transform: translate(0.25rem, -0.25rem);
-        transition: transform 400ms ease 0s;
 
         &::after {
             transform: translate(-0.5rem, 0.5rem);

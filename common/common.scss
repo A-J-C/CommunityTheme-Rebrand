@@ -41,6 +41,11 @@ body {
     border-bottom: 1px solid var(--cc-header-border);
 }
 
+.menu-panel .widget-link,
+.menu-panel .categories-link {
+    color: var(--primary) !important;
+}
+
 .topic-body {
     box-shadow: none;
 }

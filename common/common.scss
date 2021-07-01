@@ -68,8 +68,8 @@ body {
 }
 
 #banner {
-    background: repeating-linear-gradient(135deg, #f2fbff 40%, #d9f3ff 60%),
-        repeating-linear-gradient(45deg, #f2fbff 42%, #d9f3ff 60%);
+    background: repeating-linear-gradient(135deg, var(--cc-banner-light) 40%, var(--cc-banner-dark) 60%),
+        repeating-linear-gradient(45deg, var(--cc-banner-light) 42%, var(--cc-banner-dark) 60%);
     background-size: 12px 18px;
     font-size: 22px;
     height: auto;
